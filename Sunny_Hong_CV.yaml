@@ -1,0 +1,97 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: SHENG HSIANG HUNG
+  headline:
+  location: Taipei, Taiwan
+  email: sunnyhong91@gmail.com
+  photo:
+  phone:
+  # website: https://rendercv.com/
+  social_networks:
+    - network: LinkedIn
+      username: sunny-hong-605075291
+    - network: GitHub
+      username: Sunnyhong0326
+  custom_connections:
+  sections:
+    education:
+      - institution: National Tsing Hua University
+        area: Computer Science
+        degree: MS
+        date:
+        start_date: 2024-09
+        end_date: present
+        location: Hsinchu, Taiwan
+        summary:
+        highlights:
+          - 'GPA: 4.14 / 4.3'
+      - institution: National Tsing Hua University
+        area: Computer Science
+        degree: BS
+        date:
+        start_date: 2020-09
+        end_date: 2024-06
+        location: Hsinchu, Taiwan
+        summary:
+    projects:
+      - name: '3D Interactive Mapping & Reconstruction System'
+        date:
+        start_date: 2024-06
+        end_date: 2024-11
+        location:
+        # summary: Open-source library for high-performance LLM inference kernels
+        highlights:
+          - Developed an end-to-end, high-speed image-to-3DGS/mesh reconstruction pipeline 
+          - Real-time interactive web visualization 
+          - Metric distance/volume measurement toolkit with < 1m real-world error
+    publications:
+      - title: 'LoBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction'
+        authors:
+          - '*Sheng-Hsiang Hung*'
+          - Ting-Yu Yen,
+          - Wei-Fang Sun, 
+          - Simon See 
+          - Shih-Hsuan Hung 
+          - Hung-Kuo Chu
+        summary:
+        # doi: 10.1234/neurips.2023.1234
+        url: https://arxiv.org/abs/2510.01767
+        journal: GTC 2026
+        date: 2025-10
+    skills:
+      - label: Languages
+        details: Python, C++, Javascript, CUDA
+      - label: ML Frameworks
+        details: PyTorch, Triton
+      - label: Research Areas
+        details: 3D Reconstruction, Novel View Synthesis
+
+design:
+  theme: classic
+  header:
+    alignment: center
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.7cm
+    space_below_headline: 0.7cm
+    space_below_connections: 0.7cm
+locale:
+  language: english
+settings:
+  current_date: '2026-01-12'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
