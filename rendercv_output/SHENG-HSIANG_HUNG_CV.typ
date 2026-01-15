@@ -98,7 +98,7 @@
 
 #regular-entry(
   [
-    #strong[Research Intern], Industry Collaboration (NTHU × ITRI) -- Hsinchu, Taiwan
+    #strong[Research Intern], Industry Collaboration (NTHU × ITRI)
 
   ],
   [
@@ -106,7 +106,7 @@
 
   ],
   main-column-second-row: [
-    #summary[#link("https://youtu.be/hzHeTMMlGTI")[Demo Video]]
+    #summary[#link("https://youtu.be/YgUP-OLQHYI")[Demo Video]]
 
     - Built an end-to-end image-to-3DGS\/mesh reconstruction pipeline for fast scene digitization
 
@@ -117,7 +117,7 @@
 
 #regular-entry(
   [
-    #strong[Frontend Game Developer (Part-time)], IGS -- New Taipei City, Taiwan
+    #strong[Frontend Game Developer], Industry Collaboration (NTHU × IGS)
 
   ],
   [
@@ -207,7 +207,7 @@
 
     - Developed LoBE-GS with load-balance-aware partitioning, fast camera selection, and visibility cropping + selective densification to accelerate fine training
 
-    - Demonstrated \~2× training speedup over prior methods while maintaining comparable rendering quality
+    - Demonstrated \~2× training speedup over prior SOTA methods while maintaining comparable rendering quality
 
   ],
 )

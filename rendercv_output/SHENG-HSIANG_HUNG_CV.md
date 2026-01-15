@@ -8,11 +8,11 @@
 
 
 # Work Experience
-## **Research Intern**, Industry Collaboration (NTHU × ITRI) -- Hsinchu, Taiwan
+## **Research Intern**, Industry Collaboration (NTHU × ITRI)
 
 Sept 2024 – Nov 2025
 
-[Demo Video](https://youtu.be/hzHeTMMlGTI)
+[Demo Video](https://youtu.be/YgUP-OLQHYI)
 
 - Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
 
@@ -20,7 +20,7 @@ Sept 2024 – Nov 2025
 
 
 
-## **Frontend Game Developer (Part-time)**, IGS -- New Taipei City, Taiwan
+## **Frontend Game Developer**, Industry Collaboration (NTHU × IGS)
 
 May 2025 – Oct 2025
 
@@ -71,7 +71,7 @@ Accept to NVIDIA GTC 2026
 
 - Developed LoBE-GS with load-balance-aware partitioning, fast camera selection, and visibility cropping + selective densification to accelerate fine training
 
-- Demonstrated ~2× training speedup over prior methods while maintaining comparable rendering quality
+- Demonstrated ~2× training speedup over prior SOTA methods while maintaining comparable rendering quality
 
 
 

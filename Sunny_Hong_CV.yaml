@@ -14,16 +14,16 @@ cv:
     work_experience:
       - company: "Industry Collaboration (NTHU × ITRI)"
         position: "Research Intern"
-        location: "Hsinchu, Taiwan"
+        # location: "Hsinchu, Taiwan"
         start_date: 2024-09
         end_date: 2025-11
-        summary: "[Demo Video](https://youtu.be/hzHeTMMlGTI)"
+        summary: "[Demo Video](https://youtu.be/YgUP-OLQHYI)"
         highlights:
           - Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
           - Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance/volume) with <1m real-world error
-      - company: "IGS"
-        position: "Frontend Game Developer (Part-time)"
-        location: "New Taipei City, Taiwan"
+      - company: "Industry Collaboration (NTHU × IGS)"
+        position: "Frontend Game Developer"
+        # location: "New Taipei City, Taiwan"
         start_date: 2025-05
         end_date: 2025-10
         highlights:
@@ -70,7 +70,7 @@ cv:
         highlights:
           - Identified load-balancing bottlenecks in prior large-scale 3DGS and proposed a runtime-correlated proxy for better workload balancing
           - Developed LoBE-GS with load-balance-aware partitioning, fast camera selection, and visibility cropping + selective densification to accelerate fine training
-          - Demonstrated ~2× training speedup over prior methods while maintaining comparable rendering quality
+          - Demonstrated ~2× training speedup over prior SOTA methods while maintaining comparable rendering quality
     skills:
       - label: Languages
         details: Python, C++, JavaScript, C#, CUDA
