@@ -1,74 +1,109 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
-  name: SHENG HSIANG HUNG
-  headline:
+  name: SHENG-HSIANG HUNG
+  headline: 
   location: Taipei, Taiwan
   email: sunnyhong91@gmail.com
   photo:
-  phone:
-  # website: https://rendercv.com/
+  phone: +886 0915052215
+  website: https://sunnyhong0326.github.io/sunnyhong.github.io/
   social_networks:
-    - network: LinkedIn
-      username: sunny-hong-605075291
     - network: GitHub
       username: Sunnyhong0326
-  custom_connections:
   sections:
+    work_experience:
+      - company: "Industry Collaboration (NTHU × ITRI)"
+        position: "Research Intern"
+        location: "Hsinchu, Taiwan"
+        start_date: 2024-09
+        end_date: 2025-11
+        summary: "[Demo Video](https://youtu.be/hzHeTMMlGTI)"
+        highlights:
+          - Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
+          - Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance/volume) with <1m real-world error
+      - company: "IGS"
+        position: "Frontend Game Developer (Part-time)"
+        location: "New Taipei City, Taiwan"
+        start_date: 2025-05
+        end_date: 2025-10
+        highlights:
+          - Implemented UI systems and state-driven navigation flow in Unity (C#), covering core game screens and transitions.
+    
     education:
       - institution: National Tsing Hua University
         area: Computer Science
-        degree: MS
+        degree: Master
         date:
         start_date: 2024-09
         end_date: present
         location: Hsinchu, Taiwan
-        summary:
-        highlights:
-          - 'GPA: 4.14 / 4.3'
+        summary: 'Related Courses: Graphics Programming (1/35), Game Programming (1/94)'
       - institution: National Tsing Hua University
         area: Computer Science
-        degree: BS
+        degree: Bachelor
+        short_degree: BS
         date:
         start_date: 2020-09
         end_date: 2024-06
         location: Hsinchu, Taiwan
-        summary:
+        summary: 'Related Courses: Parallel Programming (1/80), Algorithms (1/100), Computer Architecture (1/122)'
     projects:
-      - name: '3D Interactive Mapping & Reconstruction System'
-        date:
-        start_date: 2024-06
-        end_date: 2024-11
-        location:
-        # summary: Open-source library for high-performance LLM inference kernels
+      - name: 'CSG Modeling with Signed Distance Fields (SDF)'
+        start_date: 2025-03
+        end_date: 2025-05
+        video: "[pdf](https://sunnyhong0326.github.io/sunnyhong.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)"
         highlights:
-          - Developed an end-to-end, high-speed image-to-3DGS/mesh reconstruction pipeline 
-          - Real-time interactive web visualization 
-          - Metric distance/volume measurement toolkit with < 1m real-world error
+          - Built a JSON-driven CSG system with SDF primitives/boolean ops and GPU ray marching for interactive visualization
+          - Developed an interactive UI workflow (load/edit/export scenes) and optional mesh extraction
     publications:
       - title: 'LoBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction'
         authors:
           - '*Sheng-Hsiang Hung*'
-          - Ting-Yu Yen,
-          - Wei-Fang Sun, 
-          - Simon See 
-          - Shih-Hsuan Hung 
+          - Ting-Yu Yen
+          - Wei-Fang Sun
+          - Simon See
+          - Shih-Hsuan Hung
           - Hung-Kuo Chu
-        summary:
-        # doi: 10.1234/neurips.2023.1234
-        url: https://arxiv.org/abs/2510.01767
-        journal: GTC 2026
+        links: "[arXiv](https://arxiv.org/abs/2510.01767) / [poster](https://sunnyhong0326.github.io/sunnyhong.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf)"
         date: 2025-10
+        journal: Accept to NVIDIA GTC 2026
+        highlights:
+          - Identified load-balancing bottlenecks in prior large-scale 3DGS and proposed a runtime-correlated proxy for better workload balancing
+          - Developed LoBE-GS with load-balance-aware partitioning, fast camera selection, and visibility cropping + selective densification to accelerate fine training
+          - Demonstrated ~2× training speedup over prior methods while maintaining comparable rendering quality
     skills:
       - label: Languages
-        details: Python, C++, Javascript, CUDA
+        details: Python, C++, JavaScript, C#, CUDA
       - label: ML Frameworks
         details: PyTorch, Triton
+      - label: Tools
+        details: Git, Docker, Linux, OpenGL, Unity
       - label: Research Areas
         details: 3D Reconstruction, Novel View Synthesis
 
 design:
-  theme: classic
+  theme: engineeringresumes
+  templates:
+    education_entry:
+      main_column: |
+        **INSTITUTION**
+        DEGREE, AREA
+        SUMMARY
+    normal_entry:
+      main_column: |
+        **NAME** — VIDEO
+        HIGHLIGHTS
+    publication_entry:
+      main_column: |
+        **TITLE**
+        AUTHORS
+        JOURNAL 
+        LINKS
+        HIGHLIGHTS
   header:
+    connections:
+      display_urls_instead_of_usernames: false
+      show_icons: true
     alignment: center
     photo_width: 3.5cm
     photo_position: left
