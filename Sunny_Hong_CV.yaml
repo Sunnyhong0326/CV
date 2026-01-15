@@ -6,7 +6,7 @@ cv:
   email: sunnyhong91@gmail.com
   photo:
   phone: +886 0915052215
-  website: https://sunnyhong0326.github.io/sunnyhong.github.io/
+  website: https://sunnyhong0326.github.io/
   social_networks:
     - network: GitHub
       username: Sunnyhong0326
@@ -51,7 +51,7 @@ cv:
       - name: 'CSG Modeling with Signed Distance Fields (SDF)'
         start_date: 2025-03
         end_date: 2025-05
-        video: "[pdf](https://sunnyhong0326.github.io/sunnyhong.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)"
+        video: "[pdf](https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)"
         highlights:
           - Built a JSON-driven CSG system with SDF primitives/boolean ops and GPU ray marching for interactive visualization
           - Developed an interactive UI workflow (load/edit/export scenes) and optional mesh extraction
@@ -64,7 +64,7 @@ cv:
           - Simon See
           - Shih-Hsuan Hung
           - Hung-Kuo Chu
-        links: "[arXiv](https://arxiv.org/abs/2510.01767) / [poster](https://sunnyhong0326.github.io/sunnyhong.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf)"
+        links: "[arXiv](https://arxiv.org/abs/2510.01767) / [poster](https://sunnyhong0326.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf)"
         date: 2025-10
         journal: Accept to NVIDIA GTC 2026
         highlights:

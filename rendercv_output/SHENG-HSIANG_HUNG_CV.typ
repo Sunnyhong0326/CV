@@ -89,7 +89,7 @@
   [#connection-with-icon("location-dot")[Taipei, Taiwan]],
   [#link("mailto:sunnyhong91@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[sunnyhong91\@gmail.com]]],
   [#link("tel:+886-915-052-215", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[0915 052 215]]],
-  [#link("https://sunnyhong0326.github.io/sunnyhong.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[sunnyhong0326.github.io\/sunnyhong.github.io]]],
+  [#link("https://sunnyhong0326.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[sunnyhong0326.github.io]]],
   [#link("https://github.com/Sunnyhong0326", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[Sunnyhong0326]]],
 )
 
@@ -170,7 +170,7 @@
 
 #regular-entry(
   [
-    #strong[CSG Modeling with Signed Distance Fields (SDF)] — #link("https://sunnyhong0326.github.io/sunnyhong.github.io/assets/projects/SDF_report.pdf")[pdf] \/ #link("https://github.com/Sunnyhong0326/SDFBooleanEngine")[code]
+    #strong[CSG Modeling with Signed Distance Fields (SDF)] — #link("https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf")[pdf] \/ #link("https://github.com/Sunnyhong0326/SDFBooleanEngine")[code]
 
   ],
   [
@@ -201,7 +201,7 @@
 
     Accept to NVIDIA GTC 2026 
 
-    #link("https://arxiv.org/abs/2510.01767")[arXiv] \/ #link("https://sunnyhong0326.github.io/sunnyhong.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf")[poster]
+    #link("https://arxiv.org/abs/2510.01767")[arXiv] \/ #link("https://sunnyhong0326.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf")[poster]
 
     - Identified load-balancing bottlenecks in prior large-scale 3DGS and proposed a runtime-correlated proxy for better workload balancing
 

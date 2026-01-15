@@ -3,7 +3,7 @@
 - Phone: +886 915 052 215
 - Email: [sunnyhong91@gmail.com](mailto:sunnyhong91@gmail.com)
 - Location: Taipei, Taiwan
-- Website: [sunnyhong0326.github.iosunnyhong.github.io](https://sunnyhong0326.github.io/sunnyhong.github.io/)
+- Website: [sunnyhong0326.github.io](https://sunnyhong0326.github.io/)
 - GitHub: [Sunnyhong0326](https://github.com/Sunnyhong0326)
 
 
@@ -46,7 +46,7 @@ Related Courses: Parallel Programming (1/80), Algorithms (1/100), Computer Archi
 
 
 # Projects
-## **CSG Modeling with Signed Distance Fields (SDF)** — [pdf](https://sunnyhong0326.github.io/sunnyhong.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)
+## **CSG Modeling with Signed Distance Fields (SDF)** — [pdf](https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)
 
 Mar 2025 – May 2025
 
@@ -65,7 +65,7 @@ Oct 2025
 
 Accept to NVIDIA GTC 2026 
 
-[arXiv](https://arxiv.org/abs/2510.01767) / [poster](https://sunnyhong0326.github.io/sunnyhong.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf)
+[arXiv](https://arxiv.org/abs/2510.01767) / [poster](https://sunnyhong0326.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf)
 
 - Identified load-balancing bottlenecks in prior large-scale 3DGS and proposed a runtime-correlated proxy for better workload balancing
 
