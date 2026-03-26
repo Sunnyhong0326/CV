@@ -5,27 +5,7 @@
 - Location: Taipei, Taiwan
 - Website: [sunnyhong0326.github.io](https://sunnyhong0326.github.io/)
 - GitHub: [Sunnyhong0326](https://github.com/Sunnyhong0326)
-
-
-# Work Experience
-## **Research Intern**, Industry Collaboration (NTHU × ITRI)
-
-Sept 2024 – Nov 2025
-
-[Demo Video](https://youtu.be/YgUP-OLQHYI)
-
-- Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
-
-- Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance/volume) with <1m real-world error
-
-
-
-## **Frontend Game Developer**, Industry Collaboration (NTHU × IGS)
-
-May 2025 – Oct 2025
-
-- Implemented UI systems and state-driven navigation flow in Unity (C#), covering core game screens and transitions.
-
+- LinkedIn: [sheng-hsiang-hung-605075291](https://linkedin.com/in/sheng-hsiang-hung-605075291)
 
 
 # Education
@@ -46,6 +26,24 @@ Related Courses: Parallel Programming (1/80), Algorithms (1/100), Computer Archi
 
 
 # Projects
+## **Industry Collaboration (NTHU × ITRI) — Research Intern** — [Demo Video](https://youtu.be/YgUP-OLQHYI)
+
+Sept 2024 – Nov 2025
+
+- Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
+
+- Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance/volume) with <1m real-world error
+
+
+
+## **Industry Collaboration (NTHU × IGS) — Frontend Game Developer**
+
+May 2025 – Oct 2025
+
+- Implemented UI systems and state-driven navigation flow in Unity (C#), covering core game screens and transitions.
+
+
+
 ## **CSG Modeling with Signed Distance Fields (SDF)** — [pdf](https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)
 
 Mar 2025 – May 2025

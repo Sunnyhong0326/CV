@@ -91,44 +91,9 @@
   [#link("tel:+886-915-052-215", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[0915 052 215]]],
   [#link("https://sunnyhong0326.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[sunnyhong0326.github.io]]],
   [#link("https://github.com/Sunnyhong0326", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[Sunnyhong0326]]],
+  [#link("https://linkedin.com/in/sheng-hsiang-hung-605075291", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[sheng-hsiang-hung-605075291]]],
 )
 
-
-== Work Experience
-
-#regular-entry(
-  [
-    #strong[Research Intern], Industry Collaboration (NTHU × ITRI)
-
-  ],
-  [
-    Sept 2024 – Nov 2025
-
-  ],
-  main-column-second-row: [
-    #summary[#link("https://youtu.be/YgUP-OLQHYI")[Demo Video]]
-
-    - Built an end-to-end image-to-3DGS\/mesh reconstruction pipeline for fast scene digitization
-
-    - Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance\/volume) with \<1m real-world error
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Frontend Game Developer], Industry Collaboration (NTHU × IGS)
-
-  ],
-  [
-    May 2025 – Oct 2025
-
-  ],
-  main-column-second-row: [
-    - Implemented UI systems and state-driven navigation flow in Unity (C\#), covering core game screens and transitions.
-
-  ],
-)
 
 == Education
 
@@ -167,6 +132,38 @@
 )
 
 == Projects
+
+#regular-entry(
+  [
+    #strong[Industry Collaboration (NTHU × ITRI) — Research Intern] — #link("https://youtu.be/YgUP-OLQHYI")[Demo Video]
+
+  ],
+  [
+    Sept 2024 – Nov 2025
+
+  ],
+  main-column-second-row: [
+    - Built an end-to-end image-to-3DGS\/mesh reconstruction pipeline for fast scene digitization
+
+    - Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance\/volume) with \<1m real-world error
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Industry Collaboration (NTHU × IGS) — Frontend Game Developer]
+
+  ],
+  [
+    May 2025 – Oct 2025
+
+  ],
+  main-column-second-row: [
+    - Implemented UI systems and state-driven navigation flow in Unity (C\#), covering core game screens and transitions.
+
+  ],
+)
 
 #regular-entry(
   [

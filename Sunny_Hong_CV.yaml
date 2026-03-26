@@ -7,28 +7,13 @@ cv:
   photo:
   phone: +886 0915052215
   website: https://sunnyhong0326.github.io/
+  linkedin: 
   social_networks:
     - network: GitHub
       username: Sunnyhong0326
+    - network: LinkedIn
+      username: sheng-hsiang-hung-605075291
   sections:
-    work_experience:
-      - company: "Industry Collaboration (NTHU × ITRI)"
-        position: "Research Intern"
-        # location: "Hsinchu, Taiwan"
-        start_date: 2024-09
-        end_date: 2025-11
-        summary: "[Demo Video](https://youtu.be/YgUP-OLQHYI)"
-        highlights:
-          - Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
-          - Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance/volume) with <1m real-world error
-      - company: "Industry Collaboration (NTHU × IGS)"
-        position: "Frontend Game Developer"
-        # location: "New Taipei City, Taiwan"
-        start_date: 2025-05
-        end_date: 2025-10
-        highlights:
-          - Implemented UI systems and state-driven navigation flow in Unity (C#), covering core game screens and transitions.
-    
     education:
       - institution: National Tsing Hua University
         area: Computer Science
@@ -47,7 +32,22 @@ cv:
         end_date: 2024-06
         location: Hsinchu, Taiwan
         summary: 'Related Courses: Parallel Programming (1/80), Algorithms (1/100), Computer Architecture (1/122)'
+
     projects:
+      - name: 'Industry Collaboration (NTHU × ITRI) — Research Intern'
+        start_date: 2024-09
+        end_date: 2025-11
+        video: "[Demo Video](https://youtu.be/YgUP-OLQHYI)"
+        highlights:
+          - Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
+          - Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance/volume) with <1m real-world error
+
+      - name: 'Industry Collaboration (NTHU × IGS) — Frontend Game Developer'
+        start_date: 2025-05
+        end_date: 2025-10
+        highlights:
+          - Implemented UI systems and state-driven navigation flow in Unity (C#), covering core game screens and transitions.
+
       - name: 'CSG Modeling with Signed Distance Fields (SDF)'
         start_date: 2025-03
         end_date: 2025-05
@@ -55,6 +55,7 @@ cv:
         highlights:
           - Built a JSON-driven CSG system with SDF primitives/boolean ops and GPU ray marching for interactive visualization
           - Developed an interactive UI workflow (load/edit/export scenes) and optional mesh extraction
+
     publications:
       - title: 'LoBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction'
         authors:
@@ -71,6 +72,7 @@ cv:
           - Identified load-balancing bottlenecks in prior large-scale 3DGS and proposed a runtime-correlated proxy for better workload balancing
           - Developed LoBE-GS with load-balance-aware partitioning, fast camera selection, and visibility cropping + selective densification to accelerate fine training
           - Demonstrated ~2× training speedup over prior SOTA methods while maintaining comparable rendering quality
+
     skills:
       - label: Languages
         details: Python, C++, JavaScript, C#, CUDA
@@ -112,8 +114,10 @@ design:
     space_below_name: 0.7cm
     space_below_headline: 0.7cm
     space_below_connections: 0.7cm
+
 locale:
   language: english
+
 settings:
   current_date: '2026-01-12'
   render_command:
