@@ -9,7 +9,8 @@
 
 
 # Education
-## **National Tsing Hua University**Sept 2024 – present
+## **National Tsing Hua University**
+Sept 2024 – present
 
 Master, Computer Science
 
@@ -17,7 +18,8 @@ Related Courses: Graphics Programming (1/35), Game Programming (1/94)
 
 
 
-## **National Tsing Hua University**Sept 2020 – June 2024
+## **National Tsing Hua University**
+Sept 2020 – June 2024
 
 Bachelor, Computer Science
 
@@ -44,13 +46,23 @@ May 2025 – Oct 2025
 
 
 
-## **CSG Modeling with Signed Distance Fields (SDF)** — [pdf](https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)
+## **CSG Modeling with Signed Distance Fields** — [pdf](https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)
 
 Mar 2025 – May 2025
 
 - Built a JSON-driven CSG system with SDF primitives/boolean ops and GPU ray marching for interactive visualization
 
 - Developed an interactive UI workflow (load/edit/export scenes) and optional mesh extraction
+
+
+
+## **Animatable NeRF Musician** — [Project Page](http://cv.cs.nthu.edu.tw/upload/undergraduate/Animatable_Musician/Intro.html)
+
+June 2023 – Dec 2023
+
+- Built a NeRF virtual musician system from multiview video, enabling novel-view and novel-pose rendering.
+
+- Integrated EasyMocap/SMPL, MIDI-driven motion sync, and depth-aware 3D composition for realistic avatar animation with instruments.
 
 
 

@@ -7,7 +7,6 @@ cv:
   photo:
   phone: +886 0915052215
   website: https://sunnyhong0326.github.io/
-  linkedin: 
   social_networks:
     - network: GitHub
       username: Sunnyhong0326
@@ -48,14 +47,21 @@ cv:
         highlights:
           - Implemented UI systems and state-driven navigation flow in Unity (C#), covering core game screens and transitions.
 
-      - name: 'CSG Modeling with Signed Distance Fields (SDF)'
+      - name: 'CSG Modeling with Signed Distance Fields'
         start_date: 2025-03
         end_date: 2025-05
         video: "[pdf](https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf) / [code](https://github.com/Sunnyhong0326/SDFBooleanEngine)"
         highlights:
           - Built a JSON-driven CSG system with SDF primitives/boolean ops and GPU ray marching for interactive visualization
           - Developed an interactive UI workflow (load/edit/export scenes) and optional mesh extraction
-
+      - name: 'Animatable NeRF Musician'
+        start_date: 2023-06
+        end_date: 2023-12
+        video: "[Project Page](http://cv.cs.nthu.edu.tw/upload/undergraduate/Animatable_Musician/Intro.html)"
+        highlights:
+          - Built a NeRF virtual musician system from multiview video, enabling novel-view and novel-pose rendering.
+          - Integrated EasyMocap/SMPL, MIDI-driven motion sync, and depth-aware 3D composition for realistic avatar animation with instruments.
+    
     publications:
       - title: 'LoBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction'
         authors:
@@ -107,13 +113,13 @@ design:
       display_urls_instead_of_usernames: false
       show_icons: true
     alignment: center
-    photo_width: 3.5cm
     photo_position: left
-    photo_space_left: 0.4cm
-    photo_space_right: 0.4cm
-    space_below_name: 0.7cm
-    space_below_headline: 0.7cm
-    space_below_connections: 0.7cm
+    photo_width: 2.5cm
+    photo_space_left: 0.1cm
+    photo_space_right: 0.1cm
+    space_below_name: 0.25cm
+    space_below_headline: 0.2cm
+    space_below_connections: 0.25cm
 
 locale:
   language: english

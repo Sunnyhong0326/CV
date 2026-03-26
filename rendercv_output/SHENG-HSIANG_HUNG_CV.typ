@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "SHENG-HSIANG HUNG",
+  title: "SHENG-HSIANG HUNG - CV",
   footer: context { [#emph[SHENG-HSIANG HUNG -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Jan 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
   page-bottom-margin: 0.7in,
@@ -46,10 +48,10 @@
   links-underline: true,
   links-show-external-link-icon: false,
   header-alignment: center,
-  header-photo-width: 3.5cm,
-  header-space-below-name: 0.7cm,
-  header-space-below-headline: 0.7cm,
-  header-space-below-connections: 0.7cm,
+  header-photo-width: 2.5cm,
+  header-space-below-name: 0.25cm,
+  header-space-below-headline: 0.2cm,
+  header-space-below-connections: 0.25cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: true,
   header-connections-display-urls-instead-of-usernames: false,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.08cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
@@ -167,7 +170,7 @@
 
 #regular-entry(
   [
-    #strong[CSG Modeling with Signed Distance Fields (SDF)] — #link("https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf")[pdf] \/ #link("https://github.com/Sunnyhong0326/SDFBooleanEngine")[code]
+    #strong[CSG Modeling with Signed Distance Fields] — #link("https://sunnyhong0326.github.io/assets/projects/SDF_report.pdf")[pdf] \/ #link("https://github.com/Sunnyhong0326/SDFBooleanEngine")[code]
 
   ],
   [
@@ -178,6 +181,23 @@
     - Built a JSON-driven CSG system with SDF primitives\/boolean ops and GPU ray marching for interactive visualization
 
     - Developed an interactive UI workflow (load\/edit\/export scenes) and optional mesh extraction
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Animatable NeRF Musician] — #link("http://cv.cs.nthu.edu.tw/upload/undergraduate/Animatable_Musician/Intro.html")[Project Page]
+
+  ],
+  [
+    June 2023 – Dec 2023
+
+  ],
+  main-column-second-row: [
+    - Built a NeRF virtual musician system from multiview video, enabling novel-view and novel-pose rendering.
+
+    - Integrated EasyMocap\/SMPL, MIDI-driven motion sync, and depth-aware 3D composition for realistic avatar animation with instruments.
 
   ],
 )
@@ -196,7 +216,7 @@
   main-column-second-row: [
     #emph[Sheng-Hsiang Hung], Ting-Yu Yen, Wei-Fang Sun, Simon See, Shih-Hsuan Hung, Hung-Kuo Chu
 
-    Accept to NVIDIA GTC 2026 
+    Accept to NVIDIA GTC 2026
 
     #link("https://arxiv.org/abs/2510.01767")[arXiv] \/ #link("https://sunnyhong0326.github.io/assets/posters/LoBE_GS_GTC_Poster_2026.pdf")[poster]
 
