@@ -33,7 +33,7 @@ cv:
         summary: 'Related Courses: Parallel Programming (1/80), Algorithms (1/100), Computer Architecture (1/122)'
 
     projects:
-      - name: 'Industry Collaboration (NTHU × ITRI) — Research Intern'
+      - name: 'Industry Collaboration (NTHU × ITRI)'
         start_date: 2024-09
         end_date: 2025-11
         video: "[Demo Video](https://youtu.be/YgUP-OLQHYI)"
@@ -41,7 +41,7 @@ cv:
           - Built an end-to-end image-to-3DGS/mesh reconstruction pipeline for fast scene digitization
           - Developed a real-time (60 FPS) interactive web viewer and measurement tools (distance/volume) with <1m real-world error
 
-      - name: 'Industry Collaboration (NTHU × IGS) — Frontend Game Developer'
+      - name: 'Industry Collaboration (NTHU × IGS)'
         start_date: 2025-05
         end_date: 2025-10
         highlights:

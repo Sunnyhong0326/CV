@@ -138,7 +138,7 @@
 
 #regular-entry(
   [
-    #strong[Industry Collaboration (NTHU × ITRI) — Research Intern] — #link("https://youtu.be/YgUP-OLQHYI")[Demo Video]
+    #strong[Industry Collaboration (NTHU × ITRI)] — #link("https://youtu.be/YgUP-OLQHYI")[Demo Video]
 
   ],
   [
@@ -155,7 +155,7 @@
 
 #regular-entry(
   [
-    #strong[Industry Collaboration (NTHU × IGS) — Frontend Game Developer]
+    #strong[Industry Collaboration (NTHU × IGS)]
 
   ],
   [

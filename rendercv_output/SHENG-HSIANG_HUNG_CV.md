@@ -28,7 +28,7 @@ Related Courses: Parallel Programming (1/80), Algorithms (1/100), Computer Archi
 
 
 # Projects
-## **Industry Collaboration (NTHU × ITRI) — Research Intern** — [Demo Video](https://youtu.be/YgUP-OLQHYI)
+## **Industry Collaboration (NTHU × ITRI)** — [Demo Video](https://youtu.be/YgUP-OLQHYI)
 
 Sept 2024 – Nov 2025
 
@@ -38,7 +38,7 @@ Sept 2024 – Nov 2025
 
 
 
-## **Industry Collaboration (NTHU × IGS) — Frontend Game Developer**
+## **Industry Collaboration (NTHU × IGS)**
 
 May 2025 – Oct 2025
 
