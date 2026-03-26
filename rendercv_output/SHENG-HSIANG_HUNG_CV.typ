@@ -231,7 +231,7 @@
 
 == Skills
 
-#strong[Languages:] Python, C++, JavaScript, C\#, CUDA
+#strong[Languages:] Python, C++, JavaScript, C\#, CUDA, Java, Kotlin
 
 #strong[ML Frameworks:] PyTorch, Triton
 

@@ -81,7 +81,7 @@ cv:
 
     skills:
       - label: Languages
-        details: Python, C++, JavaScript, C#, CUDA
+        details: Python, C++, JavaScript, C#, CUDA, Java, Kotlin
       - label: ML Frameworks
         details: PyTorch, Triton
       - label: Tools

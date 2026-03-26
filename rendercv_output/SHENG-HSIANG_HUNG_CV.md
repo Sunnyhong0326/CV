@@ -86,7 +86,7 @@ Accept to NVIDIA GTC 2026
 
 
 # Skills
-**Languages:** Python, C++, JavaScript, C#, CUDA
+**Languages:** Python, C++, JavaScript, C#, CUDA, Java, Kotlin
 
 **ML Frameworks:** PyTorch, Triton
 
